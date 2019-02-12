@@ -8,6 +8,7 @@ class Character:
 class Room:
     def __init__(self):
         self.name = "cds"
+        self.levelup = False
         #print("Room!")
 
 class Game:
