@@ -22,8 +22,8 @@ while s1 < 3 and s2 < 3:
     p2 = randint(1, 3)
     p1 = input()
     q = str(p1)+str(p2)
-    print 'Я: '+ v[int(p1)-1]
-    print 'Противник:'+ v[p2-1]
+    print('Я: ' + v[int(p1)-1])
+    print('Противник:'+ v[p2-1])
     if  q == "12" or q == "23" or q == "31":
         s1 +=1
         print('Ты победил!!!')
@@ -31,7 +31,7 @@ while s1 < 3 and s2 < 3:
         s2 +=1
         print('Комп победил!')
     else:
-        print "Ничья"
-    print str(s1), str(s2)
+        print("Ничья")
+    print(str(s1), str(s2))
 
     time.sleep(5)
